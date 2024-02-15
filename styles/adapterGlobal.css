@@ -1,0 +1,131 @@
+/* JUP.AG Unified Adapter Style Modified */
+
+/* Button */
+.custom-btn-connect {
+  background-color: #5E5DF0;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Manrope', sans-serif !important;
+  box-shadow: #5E5DF0 0 10px 20px -10px!important;
+  box-sizing: border-box!important;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 17px!important;
+  font-weight: 700!important;
+  line-height: 24px!important;
+  opacity: 1!important;
+  outline: 0 solid transparent!important;
+  padding: 8px 18px!important;
+  user-select: none!important;
+  -webkit-user-select: none!important;
+  touch-action: manipulation!important;
+  width: fit-content!important;
+  word-break: break-word!important;
+  border: 0!important;
+}
+
+.custom-btn-connect:hover {
+  background-color: #3c3cc2;
+}
+
+/* Modal */
+.css-ai1c84-ModalDialog-ModalDialog {
+  background: transparent !important;
+  all: unset;
+}
+
+.css-1l85l8a-UnifiedWalletModal-UnifiedWalletModal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.css-anlr11-Header-Header {
+  background: linear-gradient(to right, rgb(0, 77, 28), rgb(45, 2, 87));
+}
+
+.css-ts61df-ListOfWallets-ListOfWallets {
+  background: linear-gradient(to right, rgb(0, 77, 28), rgb(45, 2, 87));
+}
+
+.css-1rhst5f-Header {
+  color: rgb(216, 6, 6);
+}
+
+.css-1rhst5f-Header:hover {
+  color: rgb(117, 5, 5);
+}
+
+.css-19c91ql-ListOfWallets-ListOfWallets {
+  background: linear-gradient(to right, rgb(0, 77, 28), rgb(45, 2, 87));
+}
+
+.css-1itopph-NotInstalled {
+  background: linear-gradient(to right, rgb(0, 77, 28), rgb(45, 2, 87));
+}
+
+.css-1t730sc-NotInstalled-NotInstalled {
+  background: linear-gradient(to right, rgb(250, 150, 0), rgb(157, 3, 247));
+  font-family: "Manrope", sans-serif;
+  border: none;
+}
+
+.css-1t730sc-NotInstalled-NotInstalled:hover {
+  background: linear-gradient(to right, rgb(128, 78, 3), rgb(45, 2, 87));
+  font-family: "Manrope", sans-serif;
+  border: none;
+}
+
+.css-1jb9ul5-OnboardingIntro {
+  background: linear-gradient(to right, rgb(0, 77, 28), rgb(45, 2, 87));
+}
+
+.css-1v8iffs-OnboardingIntro-OnboardingIntro {
+  background: linear-gradient(to right, rgb(250, 150, 0), rgb(157, 3, 247));
+  border: none;
+}
+
+.css-1v8iffs-OnboardingIntro-OnboardingIntro:hover {
+  background: linear-gradient(to right, rgb(128, 78, 3), rgb(45, 2, 87));
+}
+
+.css-wubx7w-OnboardingIntro-OnboardingIntro:hover {
+  opacity: 0.5;
+}
+
+.css-1jb9ul5-OnboardingIntro img {
+  width: 0px;
+  height: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 150px 150px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: floating;
+  background-image: url("/img/logo.png");
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.css-1yquh8a-OnboardingGetWallets {
+  background: linear-gradient(to right, rgb(0, 77, 28), rgb(45, 2, 87));
+}
+
+.css-ogiqq2-OnboardingGetWallets-OnboardingGetWallets:hover {
+  opacity: 0.5;
+}
