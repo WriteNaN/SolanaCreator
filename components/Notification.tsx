@@ -25,7 +25,7 @@ export function NotifBtn() {
         
         <div className="card-body font-manrope">
           <h2 className="card-title text-center align-center flex justify-center">Your Notifications</h2>
-          <p className="pb-1 text-center align-center flex justify-center">decentralized notifications straight from solana is on the way, stay tuned!</p>
+          <p className="pb-1 text-center align-center flex justify-center"></p>
           <div className="card-actions justify-end">
             <Link href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Ex&screen_name=write_int" target="_blank">
             <button className="btn btn-primary w-full text-white font-manrope">

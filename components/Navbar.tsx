@@ -13,16 +13,15 @@ export default function Navbar() {
     setSidebarActive(!sidebarActive);
   };
   const closeSidebar = (): void => {
-    if (sidebarActive) {
       setSidebarActive(false);
-    }
   };
+  
   return (
     <>
-      <nav className="top-0 z-10 flex p-3 justify-between mx-auto w-full h-auto bg-blue-500/10">
-        <button className="flex items-center" onClick={toggleSidebar}>
+      <nav className="top-0 relative z-10 flex p-3 justify-between mx-auto w-full h-auto bg-blue-500/10">
+        <button className="flex items-center space-x-2" onClick={toggleSidebar}>
           <IoMenu className="cursor-pointer hover:text-slate-400" size={24} />
-          <p className="font-audiowide hidden md:!block">Token Dashboard</p>
+          <p className="font-audiowide hidden md:!block">SPL Token</p>
         </button>
         <div className="text-center font-audiowide text-lg flex flex-col items-center justify-center md:flex-row md:justify-center md:text-left md:items-center md:text-xs md:space-x-2 sm:text-xl md:hidden">
           <p>SPL TOKEN</p>

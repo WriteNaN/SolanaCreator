@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +9,10 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+html, body {
+  overflow: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -57,8 +61,8 @@ body {
 }
 
 .font-audiowide {
-  font-family: "Audiowide", sans-serif;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -79,10 +83,16 @@ body {
 }
 
 .slide-out {
+  -webkit-animation: slide-out 0.5s forwards;
   animation: slide-out 0.5s forwards;
 }
 
 @keyframes slide-out {
-  from { left: 0; }
-  to { left: -500px; }
+  0% { left: 0; }
+  100% { left: -500px; }
+}
+
+@-webkit-keyframes slide-out {
+  0% { left: 0; }
+  100% { left: -500px; }
 }

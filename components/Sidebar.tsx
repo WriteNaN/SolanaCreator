@@ -48,8 +48,9 @@ export default function Sidebar({ close }: { close: any }) {
   };
 
   return (
+    <div id="slide-wrapper">
     <div
-      className="fixed overflow-x-hidden inset-y-0 left-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-900 via-indigo-900 to-sky-900 text-white w-full sm:w-1/2 md:w-1/3 sm:rounded-e-xl p-3 overflow-y-scroll"
+      className="fixed overflow-x-hidden inset-y-0 left-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-900 via-indigo-900 to-sky-900 text-white w-full sm:w-1/2 md:w-1/2 xl:w-1/3 lg:w-2/6 sm:rounded-e-xl p-3 overflow-y-scroll"
       id="slide"
       onClick={(e) => e.stopPropagation()}
     >
@@ -67,7 +68,7 @@ export default function Sidebar({ close }: { close: any }) {
         <IoInformation size={20} className="text-sky-500" />
       </button>
       <div className="flex flex-row justify-center align-center">
-        <p className="align-center justify-center pb-2 pt-2 font-audiowide text-lg sm:text-sm">
+        <p className="align-center justify-center pb-2 pt-2 font-audiowide text-lg sm:text-lg">
           Creator Dashboard
         </p>
       </div>
@@ -198,6 +199,7 @@ export default function Sidebar({ close }: { close: any }) {
       </footer>
 
       <Tooltip id="info-sidebar" place="bottom-start" />
+    </div>
     </div>
   );
 }
